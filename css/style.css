@@ -1,0 +1,224 @@
+/** Common Styles **/
+body { padding-top: 60px; }
+.navbar { min-height: 20px; }
+.navbar-inner { min-height: 31px; }
+
+a.navbar-brand,
+span.navbar-brand
+{
+	padding: 5px;
+	height: 31px;
+}
+
+ul.nav li { margin-bottom: 0; }
+ul.nav li a { padding: 5px 10px; }
+
+h1
+{
+	color: #009998;
+	font-size: 40px;
+	line-height: 50px;
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+
+hr { border-top-color: #c6c6c6; }
+
+hr
+{
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #eee -moz-use-text-color #fefefe;
+	border-image: none;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-style: solid none;
+	border-width: 1px 0;
+	margin: 18px 0;
+}
+
+.border-line
+{
+	border-bottom: 1px solid rgb(0, 0, 0);
+	float: left;
+	min-height: 60px;
+	width: 100%;
+}
+
+.border-line h1 { margin: 0; }
+
+.partecipa-logo
+{
+	background-image: url("../images/logo-partecipa.jpg");
+	display: block;
+	height: 56px;
+	position: absolute;
+	text-indent: -5000px;
+	top: 18px;
+	width: 165px;
+}
+
+.pat-logo
+{
+	float: right;
+	padding-bottom: 10px;
+	position: relative;
+	width: 200px;
+}
+
+.banner { border-bottom: 1px solid #000; }
+
+footer
+{
+	bottom: 0;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	margin-top: 20px;
+	width: 100%;
+	padding: 5px;
+}
+
+footer  p { margin: 0; }
+
+footer a
+{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active
+{
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+}
+
+footer.navbar-default
+{
+	background-color: #000000;
+	border-color: #000000;
+}
+
+/** page Visione **/
+.page-visione { }
+.page-visione div.container.main { min-height: 800px; }
+
+#principles-box
+{
+	margin-top: 100px;
+	background: #e6e6e6;
+}
+
+.sidebar-header
+{
+	background-color: #17a9ab;
+	height: 25px;
+	line-height: 25px;
+}
+
+.cl-sidebar-block .sidebar-icon
+{
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 27px;
+}
+
+.cl-sidebar-block h4.sidebar-title
+{
+	float: left;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 17px;
+	margin: 0;
+	line-height: 24px;
+}
+
+#methodology-box
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#methodology-box .logo
+{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 2%;
+	width: 46%;
+}
+
+#methodology-box .logo img { margin: 0 auto; }
+.gray33 { color: #333 !important; }
+.smaller-text { font-size: 10px; }
+.bold { font-weight: bold; }
+
+/** page Principi **/
+.page-principi { }
+
+.page-principi .container.main {
+  padding-bottom: 100px;
+}
+
+#principle-intro .principlebox:first-child { border-left: 0 none; }
+
+#principle-intro .principlebox
+{
+	background: none repeat scroll 0 0 #b6e2e1;
+	border-left: 1px solid #009998;
+	margin: 0;
+	padding: 5px;
+	height: 300px;
+}
+
+#principle-intro .principlebox .top
+{
+	background: none repeat scroll 0 0 #b6e2e1;
+	margin-bottom: 5px;
+}
+
+#principle-intro img
+{
+	float: left;
+	margin-right: 5px;
+}
+
+#principle-intro .principlebox .bottom
+{
+	background: none repeat scroll 0 0 #d4e9ea;
+	margin: 0 -5px;
+	min-height: 160px;
+	padding: 10px;
+	min-height: 220px;
+}
+
+.cl-padding-top-20 { padding-top: 20px !important; }
+.gray33 { color: #333 !important; }
+.block { display: block; }
+.bold { font-weight: bold; }
+.clearfix { clear: both; }
+
+#vision-side-box
+{
+	margin-top: 100px;
+	background: #e6e6e6;
+}
+
+#vision-side-box .image img { margin: 5px auto; }
+#vision-box { padding: 0 15px; }
+
+.methodology-element img
+{
+	float: left;
+	margin-right: 5px;
+}
+
+/** page TOS **/
+.page-tos { }
+.alpha-list { list-style-type: lower-alpha; }
+li { margin-bottom: 5px; }
