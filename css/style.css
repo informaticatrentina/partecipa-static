@@ -222,3 +222,55 @@ footer.navbar-default
 .page-tos { }
 .alpha-list { list-style-type: lower-alpha; }
 li { margin-bottom: 5px; }
+
+
+/** page Contatti **/
+
+a.phone-number {
+  color: #333333;
+  text-decoration: none;
+}
+
+a.phone-number:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+.toll-free-box {
+  border: 2px solid green;
+  border-radius: 6px;
+  width: 250px;
+  margin: 20px auto;
+  color: green;
+}
+
+.toll-free-box .number-label {
+  background: none repeat scroll 0 0 white;
+  display: inline-block;
+  font-weight: bold;
+  left: -2px;
+  padding: 0 10px 0 9px;
+  position: relative;
+  top: -11px;
+}
+
+.toll-free-box .number {
+  font-size: xx-large;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.toll-free-box a {
+  color: green;
+}
+
+.toll-free-box a {
+  color: green;
+}
+
+.toll-free-box a.phone-number:hover {
+  text-decoration: none;
+  color: green;
+}
+
